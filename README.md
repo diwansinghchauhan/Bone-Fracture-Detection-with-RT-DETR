@@ -11,10 +11,6 @@ This repository implements a real-time bone fracture detection system using RT-D
 - [Data Preprocessing](#data-preprocessing)
 - [Training](#training)
 - [Evaluation](#evaluation)
-- [Results](#results)
-- [Challenges & Solutions](#challenges--solutions)
-- [Usage](#usage)
-- [License](#license)
 
 ## Milestones
 
@@ -54,16 +50,5 @@ This repository implements a real-time bone fracture detection system using RT-D
 
 - Outputs include class-wise AP, mAP@[.50:.95], AR, and precision/recall curves.
 
-## Results
-
-| Metric              | Value |
-| ------------------- | ----- |
-| mAP (IoU=0.50:0.95) | 0.32  |
-| AP\@0.50            | 0.55  |
-| AP\@0.75            | 0.28  |
-| AP (small)          | 0.18  |
-| AP (medium)         | 0.35  |
-| AP (large)          | 0.48  |
-| AR (maxDets=100)    | 0.62  |
 
 
